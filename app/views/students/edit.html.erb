@@ -1,3 +1,7 @@
+ <%= render 'form' %>
+
+ 
+<% if false %>
 <%= form_for @student do |f|%>
 <p>
   <%= f.label :name %>
@@ -12,4 +16,5 @@
   <%= f.date_field :birthday %>
 </p>
   <%= f.submit %>
+<% end %>
 <% end %>
