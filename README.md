@@ -14,7 +14,7 @@ Flatiron is building out a new system to keep track of students in its classes. 
 
 First, fork and clone the lab.
 
-We've provided a seed file so you can have some data to play around with. Run `rake db:seed` to seed the database.
+We've provided a seed file so you can have some data to play around with. Run `rails db:seed` to seed the database.
 
 1. Remove the duplicated code in the `students/edit.html.erb` and `students/new.html.erb` files by making a partial called `students/_form.html.erb`.
 2. Remove the duplicated code in the `classrooms/show.html.erb` and `students/show.html.erb` files by making a partial called `students/_student.html.erb`.
